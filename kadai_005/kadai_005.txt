@@ -1,0 +1,46 @@
+PS C:\Users\makihara> cd C:\Users\makihara\Downloads
+PS C:\Users\makihara\Downloads> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\makihara\Downloads
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/10/06     11:44                git_challenge
+
+
+PS C:\Users\makihara\Downloads> cd git_challenge
+PS C:\Users\makihara\Downloads\git_challenge> git init 
+Initialized empty Git repository in C:/Users/makihara/Downloads/git_challenge/.git/
+PS C:\Users\makihara\Downloads\git_challenge> echo Hello, world! > hello_world.txt
+PS C:\Users\makihara\Downloads\git_challenge> git add hello_world.txt
+PS C:\Users\makihara\Downloads\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) a29e556] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\makihara\Downloads\git_challenge> echo " Hello, world!" > hello_world.txt  
+PS C:\Users\makihara\Downloads\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\makihara\Downloads\git_challenge> git add hello_world.txt
+PS C:\Users\makihara\Downloads\git_challenge> git commit -m "日本語訳を追記"
+[main 9b8a656] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\makihara\Downloads\git_challenge> git log --oneline
+9b8a656 (HEAD -> main) 日本語訳を追記
+a29e556 hello_world.txtを追加
+PS C:\Users\makihara\Downloads\git_challenge> cd C:\Users\makihara\Downloads
+PS C:\Users\makihara\Downloads> mkdir kadai_005
+
+
+    ディレクトリ: C:\Users\makihara\Downloads
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/10/06     13:45                kadai_005
+
+
+PS C:\Users\makihara\Downloads> cd C:\Users\makihara\Downloads\kadai_005
+PS C:\Users\makihara\Downloads\kadai_005> git init
+Initialized empty Git repository in C:/Users/makihara/Downloads/kadai_005/.git/
+PS C:\Users\makihara\Downloads\kadai_005> echo -n > kadai_005.txt
